@@ -1704,8 +1704,8 @@
       enableBkash: false,
       enableNagad: false,
       enableBinance: false,
-      bkash: "01839920730",
-      nagad: "01839920730",
+      bkash: "01783534163",
+      nagad: "",
       rocket: "01723975179",
       binance: "",
       botToken: "",
@@ -1750,10 +1750,10 @@
       if (data.enableNagad !== undefined) state.enableNagad = Boolean(data.enableNagad);
       if (data.enableRocket !== undefined) state.enableRocket = Boolean(data.enableRocket);
       if (data.enableBinance !== undefined) state.enableBinance = Boolean(data.enableBinance);
-      state.nagad = "01839920730";
+      state.nagad = "";
       if (data.rocket !== undefined && String(data.rocket).trim() !== "") state.rocket = data.rocket;
       // Use the updated bKash receiver number.
-      state.bkash = "01839920730";
+      state.bkash = "01783534163";
       if (data.binance !== undefined) state.binance = data.binance;
       if (data.botToken !== undefined) state.botToken = data.botToken;
       if (data.chatId !== undefined) state.chatId = data.chatId;
